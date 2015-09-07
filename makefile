@@ -1,3 +1,4 @@
 all:
-	gcc task1.c
-	./a.out
+	gcc task1.c -o task1
+clean:
+	rm task1
